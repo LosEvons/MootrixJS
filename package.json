@@ -1,0 +1,21 @@
+{
+  "name": "mootrixjs",
+  "version": "1.0.0",
+  "description": "A small program to count words in a given text file.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LosEvons/MootrixJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LosEvons/MootrixJS/issues"
+  },
+  "homepage": "https://github.com/LosEvons/MootrixJS#readme"
+}
