@@ -1,5 +1,3 @@
-import { sqlite3 } from "sqlite3";
-
 async function readTextFile(text_file) {
 	let file_name = await text_file.files[0].name;
 	let text = await text_file.files[0].text();
@@ -30,7 +28,7 @@ async function readTextFile(text_file) {
 
 	// Sort dictionary
 	let counter_sorted = Object.keys(counter).map(function(key) {
-		return [key, dict[key]];
+		return [key, counter[key]];
 	});
 	counter_sorted.sort(function(first, second) {
 		return second[1] - first[1];
