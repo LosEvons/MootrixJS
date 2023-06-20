@@ -1,3 +1,5 @@
+import { sqlite3 } from "sqlite3";
+
 async function readTextFile(text_file) {
 	let file_name = await text_file.files[0].name;
 	let text = await text_file.files[0].text();
